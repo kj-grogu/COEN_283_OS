@@ -5,6 +5,12 @@ import java.util.logging.FileHandler;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
+/*
+Program a simulation of the banker’s algorithm. 
+Your program should cycle through each of the bank clients asking for a request and evaluating whether it is safe or unsafe. 
+Output a log of requests and decisions to a file.
+ */
+
 public class BankersAlgorithm {
 
   // N = number of processess;

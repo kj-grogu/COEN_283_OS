@@ -1,5 +1,14 @@
 import java.util.concurrent.Semaphore;
 
+/*
+ * Question 1: (20 points)
+Assume you are given the following wait-graph that represents the relationship between multiple threads (s1,s2,s3,…). 
+An arrow from one thread (Sy) to another (Sx) means that thread Sx must finish its computation before Sy starts. 
+(For example: S1 has to wait for S2,S5,S8 to finish, S2 has to wait for s3,s6 to finish and so on.)
+Use semaphores to enforce this relationship specified by the graph. 
+Be sure to show the initial values and the locations of the semaphore operations. 
+You will be marked based on finding the best solution with minimum number of semaphores.
+ */
 public class MinimumSemaphores {
 
 

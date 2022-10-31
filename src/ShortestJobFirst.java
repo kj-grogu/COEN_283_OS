@@ -2,7 +2,17 @@ import java.util.Comparator;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.PriorityQueue;
-
+/*
+ * Question 4 (50) 
+ * Implement a program for SJF(non-preemptive) scheduling. 
+ * Given n processes with their burst times and Arrival Time, 
+ * the task is to find average waiting time and average turn around time and completion time using SJF scheduling algorithm.
+ * Completion Time: Time at which process completes its execution.
+ * Turn Around Time: Time Difference between completion time and arrival time. 
+ * Turn Around Time = Completion Time – Arrival Time
+ 1. Waiting Time: Time Difference between turn around time and burst time. 
+    Waiting Time = Turn Around Time – Burst Time
+ */
 public class ShortestJobFirst {
 
 //Job defination:

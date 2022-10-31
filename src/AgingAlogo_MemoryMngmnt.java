@@ -3,7 +3,7 @@
 import java.io.*;
 import java.util.*;
 
-public class OS_Assignment_04 {
+public class AgingAlogo_MemoryMngmnt {
   /*
   * Q1. (40 Points)
 Write  a  program  that  simulates  a  paging  system  using  the  aging  algorithm.  The  number  of  page
